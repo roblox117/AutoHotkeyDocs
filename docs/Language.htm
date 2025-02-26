@@ -119,10 +119,14 @@ MsgBox, This line is commented out.
 <p>A <em>string</em>, or <em>string of characters</em>, is just a text value. In an expression, literal text must be enclosed in quotation marks to differentiate it from a variable name or some other expression. This is often referred to as a <em>quoted literal string</em>, or just <em>quoted string</em>. For example, <code>"This is a quoted string."</code>.</p>
 <p>To include an <em>actual</em> quote character inside a quoted string, specify two consecutive quotes as shown twice in this example: <code>"She said, ""An apple a day."""</code>.</p>
 <p>Quoted strings can contain <a href="misc/EscapeChar.htm">escape sequences</a> such as <code>`t</code> (tab), <code>`n</code> (linefeed), and <code>`r</code> (carriage return). Unlike <a href="#unquoted-text">unquoted text</a>, it is not necessary to escape commas or percent signs, as quoted strings cannot contain variables. The use of the <code>`"</code> escape sequence to produce a literal quote-character is currently not supported; instead, use two consecutive quotes as shown above.</p>
-
 <h3 id="variables">Variables</h3>
 <p class="note">For a basic explanation and general details about variables, see <a href="Concepts.htm#variables">Variables</a>.</p>
 <p><em>Variables</em> can be used in an expression simply by writing the variable's name. For example, <code>A_ScreenWidth/2</code>. However, variables cannot be used inside a quoted string. Instead, variables and other values can be combined with text through a process called <a href="Variables.htm#concat"><em>concatenation</em></a>. There are two ways to <em>concatenate</em> values in an expression:</p>
+<ul>
+<ul>
+<ul>
+<ul>
+<ul>
 <ul>
   <li>Implicit concatenation: <code>"The value is " MyVar</code></li>
   <li>Explicit concatenation: <code>"The value is " . MyVar</code></li>
