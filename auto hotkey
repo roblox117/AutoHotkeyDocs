@@ -1,0 +1,1 @@
+ return innerHTML.replace(new RegExp('^(' + r_s + '*?)([' + r_char + ']+?)(\\(.*?\\))(?=\\s*(' + r_com + '\\s*)*{)', 'mg'), function(ASIS, PRE, NAME, PARAMS)
